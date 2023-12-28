@@ -1,0 +1,148 @@
+/* Контейнер для шапки*/
+.container {
+  position: relative;
+  width: 720px;
+  height: 500px;
+  margin: 0%;
+}
+  
+/* Сделайте изображение адаптивным */
+.img {
+  position: relative;
+  width: 720px;
+  height: 500px;
+}
+
+.imgg{
+  height: 65px;
+  width: 70px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+  
+/* кнопка входа */
+.container .btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border-color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* кнопка входа меняет белый цвет */
+.container .btn:hover {
+  background-color:#EDB61F;
+  color: black;
+}
+
+.nomer{
+  position: absolute;
+  top: 4%;
+  right: 18%;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+/* текст на шапке */
+.tekst{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: white;
+  text-align: center;
+  transform: translate(-12em, -3em);
+  white-space: nowrap;
+}
+
+.linia{
+  background: #EDB61F;
+  height: 7px;
+  width: 720px;
+}
+
+.z{
+  background: black;
+  color: white;
+  width: 720px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* кнопки авторизации */
+.button{
+  background-color: black;
+  color: white;
+  border-color: white;
+  font-size: 30px;
+  padding: 0px 38px;
+  cursor: pointer;
+  border-radius: 13px;
+  margin-top: 40px;
+}
+
+.button:hover{
+  background-color: #EDB61F;
+  color: black;
+}
+
+.buttonn{
+  background-color: black;
+  color: white;
+  border-color: white;
+  font-size: 30px;
+  padding: 25px 38px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttonn:hover{
+  background-color: #EDB61F;
+  color: black;
+}
+
+.buttonnn{
+  background-color: black;
+  color: white;
+  border-color: white;
+  font-size: 28px;
+  padding: 20px 18px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-bottom: 0px;
+}
+
+.buttonnn:hover{
+  background-color: #EDB61F;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #EDB61F;
+  color: black;
+  width: 720px;
+}
+
+/* Footer кнопки */
+.btnn{
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 5px;
+  }
+
+

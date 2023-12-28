@@ -1,0 +1,151 @@
+/* Контейнер для шапки*/
+.container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  
+}
+  
+/* Сделайте изображение адаптивным */
+.img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.imgg{
+  height: 65px;
+  width: 70px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+  
+/* кнопка входа */
+.container .btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border-color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* кнопка входа меняет белый цвет */
+.container .btn:hover {
+  background-color:#EDB61F;
+  color: black;
+}
+
+.nomer{
+  position: absolute;
+  top: 4%;
+  right: 8%;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+/* текст на шапке */
+.tekst{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  transform: translate(-20em, -5em);
+}
+
+.linia{
+  background: #EDB61F;
+  height: 7px;
+}
+
+.z{
+  background: black;
+  color: white;
+}
+
+.table{
+  color: white;
+  width: 100%;
+}
+
+
+.im {
+  background: url(img/3.png); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 250px; /* Ширина рисунка */
+  height: 300px; /*  Высота рисунка */
+  margin-left: 150px;
+  border-radius: 10%;
+ }
+.im:hover {
+  background: url(img/13.png); /* Путь к файлу с заменяемым рисунком  */
+}
+
+.imm {
+  background: url(img/4.png); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 250px; /* Ширина рисунка */
+  height: 300px; /*  Высота рисунка */
+  margin-left: 10px;
+  border-radius: 10%;
+ }
+.imm:hover {
+  background: url(img/14.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+.immm {
+  background: url(img/5.png); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 250px; /* Ширина рисунка */
+  height: 300px; /*  Высота рисунка */
+  margin-left: 150px;
+  border-radius: 10%;
+
+ }
+.immm:hover {
+  background: url(img/15.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+.immmm {
+  background: url(img/9.jfif); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 250px; /* Ширина рисунка */
+  height: 300px; /*  Высота рисунка */
+  margin-left: 10px;
+  border-radius: 10%;
+ }
+.immmm:hover {
+  background: url(img/19.jpeg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #EDB61F;
+  color: black;
+}
+
+/* Footer кнопки */
+.btnn{
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 5px;
+  }
+
+
